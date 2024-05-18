@@ -1,0 +1,22 @@
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: black !important;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(0 0 0) !important;
+}
